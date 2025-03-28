@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website resmi Himpunan Pelajar Mahasiswa Indonesia Parepare Komisariat Bandar Madani">
+    <meta name="keywords" content="HIPMI PARE, mahasiswa Parepare, organisasi mahasiswa, Bandar Madani">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>HIPMI PARE Kom. Bandar Madani</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="check">
+        <label for="check">
+            <i class="fas fa-bars" id="btn"></i>
+        </label>
+
+        <div class="sidebar" id="sidebar">
+            <header>Tentang</header>
+            <label for="check" class="close-btn">
+                <i class="fas fa-times"></i>
+            </label>     
+
+            <ul>
+                <li class="menu-item" onclick="toggleMenu(this)">
+                    <div class="menu-item" onclick="toggleSubMenu('submenu1')">Informasi Deskripsi </div>
+                    <div id="submenu1" class="submenu">
+                        <a href="assets/Pages Deskripsi/sejarah.html">Sejarah Organisasi</a>
+                        <a href="assets/Pages Deskripsi/profil.html">Profil Organisasi</a>
+                        <a href="assets/Pages Deskripsi/visi misi.html">Visi dan Misi</a>
+                    </div>
+                </li>
+                <hr>
+
+                <li class="menu-item" onclick="toggleMenu(this)">
+                    <div class="menu-item" onclick="toggleSubMenu('submenu2')">Informasi Program Kerja </div>
+                    <div id="submenu2" class="submenu">
+                        <a href="assets/Pages Program Kerja/event.html">Event</a>
+                        <a href="assets/Pages Program Kerja/pengkaderan.html">Pengkaderan</a>
+                        <a href="assets/Pages Program Kerja/bm mengabdi.html">BM Mengabdi</a>
+                    </div>
+                </li>
+                <hr>
+
+                <li class="menu-item" onclick="toggleMenu(this)">
+                    <div class="menu-item" onclick="toggleSubMenu('submenu3')">Informasi Kepengurusan  </div>
+                    <div id="submenu3" class="submenu">
+                        <a href="assets/Pages Kepengurusan/profil pengurus.html">Profil Pengurus</a>
+                        <a href="assets/Pages Kepengurusan/struktur.html">Struktur Pengurus</a>
+                    </div>
+                </li>
+                <hr>
+            </ul>
+        </div>
+
+        <!-- <img src="hipmi-removebg-preview.png" alt="Gambar" class="logo-img"> -->
+
+        <div class="text">
+            <h4>HIMPUNAN PELAJAR MAHASISWA INDONESIA PAREPARE</h4>
+            <h4>KOMISARIAT BANDAR MADANI</h4>
+        </div>
+    </div>
+
+        <nav>
+            <button class="menu-toggle">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+        
+            <div class="search-container">
+                <input type="text" id="searchMenu" class="search-input" placeholder="Cari...">
+                <button class="search-button" id="searchIcon">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            
+        </nav>
+
+        <div class="main-content">
+    </header>
+
+    <div class="content">
+        <section class="hero">
+            <div class="overlay">
+                <div class="main--content">
+                    <h2 class = "welcome-text">SELAMAT DATANG DI HIPMI PARE KOM. BANDAR MADANI</h2>
+                    <img src="hipmi-removebg-preview.png" alt="Gambar" class="logo-main">
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
